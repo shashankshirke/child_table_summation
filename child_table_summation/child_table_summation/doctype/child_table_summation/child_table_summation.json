@@ -1,0 +1,156 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-06-09 22:00:29.680077",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "field_summation_tab",
+  "x_field",
+  "column_break_nwzh",
+  "y_field",
+  "column_break_uaks",
+  "sum",
+  "single_child_table_summation_tab",
+  "column_break_rnvm",
+  "child_table_a_link_field",
+  "column_break_pqgf",
+  "sum_of_child_table_a",
+  "multiple_child_tables_summation_tab",
+  "child_table_b_link_field",
+  "sum_of_child_table_b",
+  "column_break_pxzs",
+  "child_table_c_link_field",
+  "sum_of_child_table_c",
+  "column_break_hbzq",
+  "sum_of_b_c"
+ ],
+ "fields": [
+  {
+   "fieldname": "field_summation_tab",
+   "fieldtype": "Tab Break",
+   "label": "Field Summation"
+  },
+  {
+   "fieldname": "x_field",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "X",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_nwzh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "y_field",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Y",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_uaks",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "sum",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Sum (X+Y)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "single_child_table_summation_tab",
+   "fieldtype": "Tab Break",
+   "label": "Single Child Table Summation"
+  },
+  {
+   "fieldname": "multiple_child_tables_summation_tab",
+   "fieldtype": "Tab Break",
+   "label": "Multiple Child Tables Summation"
+  },
+  {
+   "fieldname": "column_break_rnvm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_pqgf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_pxzs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_hbzq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "child_table_a_link_field",
+   "fieldtype": "Table",
+   "options": "Child Table A"
+  },
+  {
+   "fieldname": "child_table_b_link_field",
+   "fieldtype": "Table",
+   "label": "Child Table B",
+   "options": "Child Table B",
+   "reqd": 1
+  },
+  {
+   "fieldname": "sum_of_child_table_a",
+   "fieldtype": "Data",
+   "label": "Sum of Child Table A"
+  },
+  {
+   "fieldname": "child_table_c_link_field",
+   "fieldtype": "Table",
+   "label": "Child Table C",
+   "options": "Child Table C",
+   "reqd": 1
+  },
+  {
+   "fieldname": "sum_of_b_c",
+   "fieldtype": "Data",
+   "label": "Sum of B + C",
+   "reqd": 1
+  },
+  {
+   "fieldname": "sum_of_child_table_b",
+   "fieldtype": "Data",
+   "label": "Total of Child Table B",
+   "reqd": 1
+  },
+  {
+   "fieldname": "sum_of_child_table_c",
+   "fieldtype": "Data",
+   "label": "Total of Child Table C",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-06-09 22:39:08.955821",
+ "modified_by": "Administrator",
+ "module": "Child Table Summation",
+ "name": "Child Table Summation",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
